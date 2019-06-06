@@ -15,7 +15,7 @@ $(document).ready(function(){
       let text = JSON.parse(response);
       text.forEach((quote) => {
 
-      $("#output").append(`<h1>Insults: ${quote}</h1>`);
+      $("#output").html(`<h1>Quotes: ${quote}</h1>`);
     });
 
     });
